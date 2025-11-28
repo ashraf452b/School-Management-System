@@ -13,4 +13,3 @@ class Subject:
             mark=self.teacher.evaluate()
             i.marks[self.name]=mark
             i.subject_grade[self.name]=School.calculate_grade(mark)
-    

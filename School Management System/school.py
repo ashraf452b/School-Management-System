@@ -74,7 +74,7 @@ class School:
         for i,j in self.classrooms.items():
             res+=f"---{i.upper()} Classroom Students\n"
             for student in j.students:
-                res+=f"{student.name}\n"
+                res+=f"{student.name} - Rool No : {student.id}\n"
         print(res)
         #all subjects
         sub=''

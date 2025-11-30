@@ -28,6 +28,7 @@ school.student_admission(inesta)
 school.student_admission(rakitic)
 school.student_admission(moneymar)
 
+
 #Teacher
 guardiola=Teacher('big match experiment')
 enrique=Teacher('Luis Thousand Pass')
@@ -63,4 +64,8 @@ ten.add_subjects(english)
 ten.add_subjects(math)
 
 eight.take_semester_final_exam()
+
+nine.take_semester_final_exam()
+
+ten.take_semester_final_exam()
 print(school)

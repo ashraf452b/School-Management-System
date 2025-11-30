@@ -17,7 +17,7 @@ class Student(Person):
         self.classroom=classroom
         self.__id=None
         self.marks={}
-        self.subject_grade={}
+        self.subject_grade={} #'eng':98
         self.grade=None
 
     def final_grade(self):
